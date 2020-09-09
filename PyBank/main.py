@@ -3,7 +3,7 @@ import csv
 import statistics
 
 budget_file = os.path.join("Resources", "budget_data.csv")
-output_budget_file = os.path.join("Analysis", 'Analysis_PyBank.txt', 'w')
+output_budget_file = os.path.join("Analysis", 'Analysis_PyBank.txt')
 
 months = []
 months_list_indexing = []
@@ -57,3 +57,13 @@ print(f'Average Change: ${round(average_change,2)}')
 print(f'Greatest Increase in Profits: {month_max} (${maximum_increase_profit})')
 print(f'Greatest Increase in Profits: {month_min} (${maximum_decrease_profit})')
    
+## Writing the file into a text format
+with open(output_budget_file, 'w') as writedatafile:
+    writedatafile.write(f' Financial Analysis\n')
+    writedatafile.write(f'-------------------------------------\n')
+    writedatafile.write(f'Total Months: {total_months}\n')
+    writedatafile.write(f'Total: ${total_profit_loss}\n')
+    writedatafile.write(f'Average Change: ${round(average_change,2)}\n')
+    writedatafile.write(f'Greatest Increase in Profits: {month_max} (${maximum_increase_profit})\n')
+    writedatafile.write(f'Greatest Increase in Profits: {month_min} (${maximum_decrease_profit})\n')
+    writedatafile.close()
