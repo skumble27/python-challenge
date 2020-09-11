@@ -5,6 +5,9 @@ import os
 ## Creating a file path to the source text
 pyparagraphfile = os.path.join("Resources","paragraph_2.txt")
 
+## Creating an outputfile
+pyparagraphfile_output = os.path.join("Analysis","parapgraph_analysis.txt")
+
 ## Changing the terminal directory to the location to the location of the main python script
 os.chdir(os.path.dirname(__file__))
 
@@ -49,3 +52,12 @@ print(f'Approximate sentence count: {sentencecount}')
 print(f'Average Letter Count: {average_letter_per_word}')
 print(f'Average Sentence Count: {average_word_in_sentence}')
 
+## Exporting analysis to a text file
+with open(pyparagraphfile_output, 'w') as textoutfile:
+    textoutfile.write(f'Paragraph Analysis\n')
+    textoutfile.write(f'--------------------------------\n')
+    textoutfile.write(f'Approximate word count: {wordcount}\n')
+    textoutfile.write(f'Approximate sentence count: {sentencecount}\n')
+    textoutfile.write(f'Average Letter Count: {average_letter_per_word}\n')
+    textoutfile.write(f'Average Sentence Count: {average_word_in_sentence}\n')
+    textoutfile.close()
