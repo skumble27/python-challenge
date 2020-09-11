@@ -39,7 +39,7 @@ average_letter_per_word = format(sum(total_letter_count)/(len(wordsplit)),".3f")
 
 ## Calculating the average word length of a sentence
 average_word_in_sentence = format(len(wordsplit)/sentencecount, ".0f")
-print(average_word_in_sentence)
+
 
 ## Printing the results into the terminal
 print(f'Paragraph Analysis')
