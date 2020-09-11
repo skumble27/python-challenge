@@ -1,3 +1,4 @@
+## PyPoll Project
 ## Importing the relevant modules for analyses
 import os
 import csv
