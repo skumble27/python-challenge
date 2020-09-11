@@ -70,6 +70,17 @@ with open(output_py_poll_file, 'w') as datafile:
     datafile.write(f'---------------------------------\n')
     datafile.close()
 
+## Displaying the output data onto the terminal
+    print(f'Election Results')
+    print(f'---------------------------------')
+    print(f'Total Votes: {total_votes}')
+    print(f'{top_ranked_name}: {format(100*(top_rank/total_votes),".3f")}% ({top_rank})')
+    print(f'{second_ranked_name}: {format(100*(second_rank/total_votes),".3f")}% ({second_rank})')
+    print(f'{third_ranked_name}: {format(100*(third_rank/total_votes),".3f")}% ({third_rank})')
+    print(f'{fourth_ranked_name}: {format(100*(fourth_rank/total_votes),".3f")}% ({fourth_rank})')
+    print(f'---------------------------------')
+    print(f'Winner {top_ranked_name}')
+    print(f'---------------------------------')
 
 
     
