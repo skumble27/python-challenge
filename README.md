@@ -9,5 +9,5 @@ The resulting data analysis were exported into the relevant formats which can be
 A screen shot for each project has been provided below:
 
 ### PyBank Output onto the terminal
-
+![Image of PyBank on Terminal](PyBank/PyBank Screenshot.png)
 
