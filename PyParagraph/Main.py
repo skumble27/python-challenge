@@ -13,6 +13,7 @@ os.chdir(os.path.dirname(__file__))
 
 total_letter_count = [] 
 
+## Opening and reading the textfile
 with open(pyparagraphfile) as textfile:
     paragraph2 = textfile.read().replace("\n", " ")
     

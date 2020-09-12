@@ -80,7 +80,7 @@ with open(output_py_poll_file, 'w') as datafile:
     print(f'{third_ranked_name}: {format(100*(third_rank/total_votes),".3f")}% ({third_rank})')
     print(f'{fourth_ranked_name}: {format(100*(fourth_rank/total_votes),".3f")}% ({fourth_rank})')
     print(f'---------------------------------')
-    print(f'Winner {top_ranked_name}')
+    print(f'Winner: {top_ranked_name}')
     print(f'---------------------------------')
 
 
