@@ -8,6 +8,28 @@ The resulting data analysis were exported into the relevant formats which can be
 ## Outcomes for each project
 A screen shot for each project has been provided below:
 
-### PyBank Output onto the terminal
-![Image of PyBank on Terminal](PyBank/PyBank Screenshot.png)
+##### PyBank Output onto the terminal
+![PyBank Terminal Outputl](https://raw.githubusercontent.com/skumble27/python-challenge/master/Images/PyBank%20Terminal%20Output.png)
+
+
+
+##### PyBoss Output
+
+![PyBoss Output](https://raw.githubusercontent.com/skumble27/python-challenge/master/Images/PyBoss%20Output.png)
+
+##### PyParagraph Output
+
+![PyParagraph Terminal Output](https://raw.githubusercontent.com/skumble27/python-challenge/master/Images/PyParagraph%20Terminal%20Output.png)
+
+
+
+##### PyPoll Output
+
+![PyPoll Terminal Output](https://raw.githubusercontent.com/skumble27/python-challenge/master/Images/PyPoll%20Terminal%20Output.png)
+
+
+
+
+
+
 
