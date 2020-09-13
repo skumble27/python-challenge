@@ -3,10 +3,6 @@ import os
 import csv
 import datetime
 
-
-## Changing the terminal directory to the location to the location of the main python script
-os.chdir(os.path.dirname(__file__))
-
 ## Creating the file paths
 py_boss_file = os.path.join("Resources", "employee_data.csv")
 

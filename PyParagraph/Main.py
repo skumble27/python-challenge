@@ -8,9 +8,6 @@ pyparagraphfile = os.path.join("Resources","paragraph_2.txt")
 ## Creating an outputfile
 pyparagraphfile_output = os.path.join("Analysis","parapgraph_analysis.txt")
 
-## Changing the terminal directory to the location to the location of the main python script
-os.chdir(os.path.dirname(__file__))
-
 total_letter_count = [] 
 
 ## Opening and reading the textfile

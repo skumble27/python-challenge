@@ -4,9 +4,6 @@ import os
 import csv
 import statistics
 
-## Changing the terminal directory to the location to the location of the main python script
-os.chdir(os.path.dirname(__file__))
-
 ## File path to access the CSV data
 py_bank_file = os.path.join("Resources", "budget_data.csv")
 

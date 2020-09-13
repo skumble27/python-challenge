@@ -5,9 +5,6 @@ import csv
 import statistics
 from collections import Counter
 
-## Changing the terminal directory to the main script
-os.chdir(os.path.dirname(__file__))
-
 ## File path to access the CSV Data to run the python script
 py_poll_file = os.path.join("Resources", "election_data.csv")
 
